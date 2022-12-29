@@ -1,4 +1,4 @@
-<img align="left" src="https://orhun.dev/img/crow.png">
+<img align="left" src="">
 
 ### Hey!
 
@@ -7,7 +7,7 @@ I'm someone who is passionate about **GNU/Linux** and likes to **write code**.
 
 
 
-***<h3 align="left"><img src = "https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width = 30px>
+***<h3 align="left"><img src = "hi.gif" width = 30px>
 Hello Friend
 
 I'm someone who is passionate about **GNU/Linux** and likes to **write code**.</h3>***              
