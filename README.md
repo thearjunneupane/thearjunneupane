@@ -5,7 +5,54 @@ Hello Friend
 
 I'm someone who is passionate about **GNU/Linux** and likes to **write code**.</h3>
 
-<br>
+<br><br><br>
+
+```go
+package main
+
+import (
+	"fmt"
+)
+
+type thearjunneupane struct {
+	Username     string
+	Name         string
+	Code         map[string][]string
+	Architecture []string
+	Passion      []string
+}
+
+func Newthearjunneupane() *thearjunneupane {
+	code := map[string][]string{
+		"backend":  {"Go", "PHP"},
+		"database": {"PostgreSQL", "MySQL"},
+		"devops":   {"Docker", "Linux"},
+		"frontend": {"HTML", "CSS", "Boostrap", "Tailwind"},
+		"tools":    {"GIT", "GitHub"},
+		"misc":     {"Firebase", "Netlify"},
+	}
+	architecture := []string{"SPA", "Server"}
+	passion := []string{"Computer", "Guitar", "Philosophy"}
+
+	return &thearjunneupane{
+		Username:     "thearjunneupane",
+		Name:         "Arjun Neupane",
+		Code:         code,
+		Architecture: architecture,
+		Passion:      passion,
+	}
+}
+
+func (r *thearjunneupane) String() string {
+	return fmt.Sprintf("%s >> %s", r.Name, r.Passion)
+}
+
+func main() {
+	me := Newthearjunneupane()
+	fmt.Println(me)
+}
+
+```
 
 
 <!-- - 👀 I’m interested in ***Computer(Actually all).***<br>
