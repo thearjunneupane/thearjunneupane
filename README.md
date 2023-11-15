@@ -29,9 +29,9 @@ func Newthearjunneupane() *thearjunneupane {
 		"devops":   {"Docker", "Linux"},
 		"frontend": {"HTML", "CSS", "Boostrap", "Tailwind"},
 		"tools":    {"GIT", "GitHub"},
-		"misc":     {"Firebase", "Netlify"},
+		"misc":     {"Firebase", "Netlify", "Postman", "Hugo"},
 	}
-	architecture := []string{"SPA", "Server"}
+	architecture := []string{"MVC", "Server"}
 	passion := []string{"Computer", "Guitar", "Philosophy"}
 
 	return &thearjunneupane{
